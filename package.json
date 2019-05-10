@@ -1,0 +1,27 @@
+{
+  "name": "ontalent-backend",
+  "version": "1.0.0",
+  "description": "Backend proyect for On Talent App Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharky310/OnTalent-Backend.git"
+  },
+  "keywords": [
+    "onboarding",
+    "ontalent",
+    "backend",
+    "express",
+    "node",
+    "js"
+  ],
+  "author": "Miguel Angel Castro Edreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharky310/OnTalent-Backend/issues"
+  },
+  "homepage": "https://github.com/sharky310/OnTalent-Backend#readme"
+}

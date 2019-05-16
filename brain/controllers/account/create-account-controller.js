@@ -1,6 +1,6 @@
 'use strict'
 
-const psqlDB = require('../../../database/psql-pool');
+const psqlPool = require('../../../database/psql-pool');
 
 //TODO FUNCTION VALIDATE(is necesary that this function is async)
 
@@ -22,9 +22,9 @@ async function createAccount(req, res, next) {
     // const uuid = uuidV4();
     const createdAt = now.toISOString().substring(0, 19).replace('T', ' ');
 
-    // const connection = await mysqlPool.getConnection();
+    const connection = await psqlPool.getConnection();
 
-    // const sqlInsercion = 'INSERT INTO users SET ?';
+    const sqlInsercion = 'INSERT INTO users SET ?';
 
     //This function is the main. Insert new user and create mail confirmation
     // try {

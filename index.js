@@ -9,10 +9,25 @@ const express = require('express');
 
 const app = express();
 const port = 3000;
+const routers = require('./brain/routes');
+
+const psql = require('./database/psql-pool');
 
 //
 //Middleware
 app.use(bodyParser.json());
+
+app.use((err, req, res, next) => {
+  console.error(err);
+  res.status(400).send({
+    error: `Body parser: ${err.message}`,
+  });
+});
+
+app.use('/api', routers.accountRouter);
+// app.use('/api', routers.postRouter);
+// app.use('/api', routers.userRouter);
+
 
 //Special middleware for config cors
 app.use((req, res, next) => {
@@ -30,8 +45,9 @@ app.use((req, res, next) => {
 //Init backend
 function init(){
 
-    app.listen(port => {
+    app.listen(port, () => {
         console.log(`The backend server is running in ${port}. Have a nice day`);
+        console.log(process.env.PQSL_USER);
     });
 }
 

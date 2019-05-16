@@ -44,10 +44,15 @@ app.use((req, res, next) => {
 
 //Init backend
 function init(){
+  try {
+    // psql.check();
+  } catch (e) {
+    console.error(e);
+    process.exit(1);
+  }
 
     app.listen(port, () => {
         console.log(`The backend server is running in ${port}. Have a nice day`);
-        console.log(process.env.PQSL_USER);
     });
 }
 

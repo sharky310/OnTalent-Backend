@@ -1,6 +1,6 @@
 'use strict'
 
-const psqlPool = require('../../../database/psql-pool');
+const psql = require('../../../database/psql-pool');
 
 //TODO FUNCTION VALIDATE(is necesary that this function is async)
 
@@ -9,10 +9,15 @@ const psqlPool = require('../../../database/psql-pool');
 //OPTIONAL. CAN YOU INCLUDE verification email, verification code
 
 async function createAccount(req, res, next) {
-    const accountData = req.body;
+
+    const accountData = {...req.body}; // accountData is in JSON format
   
     try {
-      //Insert values
+      psql.pool.query('SELECT * FROM rol', (err, res) => {
+        console.log(res);
+        pool.end();
+    })
+      console.log(psql);
     } catch (e) {
       return res.status(400).send(e);
     }

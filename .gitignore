@@ -1,6 +1,8 @@
 ##Folders
 node_modules
 sql
+internal_docs
+
 
 #Files
 env

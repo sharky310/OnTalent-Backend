@@ -9,6 +9,7 @@ const express = require('express');
 
 const app = express();
 const port = 3000;
+const nexus = '/api'
 const routers = require('./brain/routes');
 
 const psql = require('./database/psql-pool');
@@ -24,9 +25,9 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.use('/api', routers.accountRouter);
-// app.use('/api', routers.postRouter);
-// app.use('/api', routers.userRouter);
+app.use(nexus, routers.accountRouter);
+// app.use(nexus, routers.postRouter);
+// app.use(nexus, routers.userRouter);
 
 
 //Special middleware for config cors

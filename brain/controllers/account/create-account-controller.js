@@ -1,6 +1,6 @@
 'use strict'
 
-const psql = require('../../../database/psql-pool');
+const sequelize = require('../../../database/psql-pool');
 
 //TODO FUNCTION VALIDATE(is necesary that this function is async)
 
@@ -29,31 +29,6 @@ async function createAccount(req, res, next) {
 
     const connection = await psqlPool.getConnection();
 
-    const sqlInsercion = 'INSERT INTO users SET ?';
-
-    //This function is the main. Insert new user and create mail confirmation
-    // try {
-    //     const resultado = await connection.query(sqlInsercion, {
-    //       uuid, // uuid: uuid,
-    //       email: accountData.email,
-    //       password: securePassword,
-    //       created_at: createdAt,
-    //     });
-    //     connection.release();
-    
-    //     const verificationCode = await addVerificationCode(uuid);
-    
-    //     await sendEmailRegistration(accountData.email, verificationCode);
-    //     await createProfile(uuid);
-    
-    //     return res.status(201).send();
-    //   } catch (e) {
-    //     if (connection) {
-    //       connection.release();
-    //     }
-    
-    //     return res.status(500).send(e.message);
-    //   }
     
   
 }

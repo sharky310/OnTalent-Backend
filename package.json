@@ -34,10 +34,13 @@
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
     "pg": "^7.11.0",
+    "pg-hstore": "^2.3.2",
     "sequelize": "^5.8.6",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "nodemon": "^1.19.0"
   }
 }

@@ -1,52 +1,39 @@
 'use strict'
 
-const psql = require('pg').Pool;
-  
-// const  pool =  new psql({
-//     user: process.env.POSTGRESQL_USER,
-//     host: process.env.POSTGRESQL_HOST,
-//     database: process.env.POSTGRESQL_DATABASE,
-//     password: process.env.POSTGRESQL_PASSWORD,
-//     port: process.env.POSTGRESQL_PORT,
-//   });
+const sequelize = require('sequelize') ;
+
 
 const config = {
-  user: process.env.POSTGRESQL_USER,
+      user: process.env.POSTGRESQL_USER,
       host: process.env.POSTGRESQL_HOST,
       database: process.env.POSTGRESQL_DATABASE,
       password: process.env.POSTGRESQL_PASSWORD,
       port: process.env.POSTGRESQL_PORT,
+      dialect: process.env.DIALECT,
 }
-  
-  try {
-    if (pool) {
-      console.log(`The database is running in port ${pool.options.port}. Your info is available`);
-    }
-  } catch (e) {
-    console.error('Database pool connect', e);
-    throw e;
+
+const psqlPool = new Sequelize(
+  config.database,
+  config.user,
+  config.password,
+  {
+    host: config.host,
+    dialect: config.dialect,
+    //TODO reduce config const and use external info in the pool object
+    pool:{
+      max: 5,
+      min: 0,
+      require: 30000,
+      idle: 10000
+    },
+    logging: false, //This property hide message for terminal
   }
-
-
-//TODO I need check that the connection is finished
-function check(){
-
-  try{
-    pool.query('SELECT * FROM rol', (err, res) => {
-      console.log(res);
-      pool.end();
-  })
-}
-  catch (e){
-    console.error('Database pool connect', e);
-    throw e;
-  }
+)
 
 }
 
   module.exports = {
-    check,
-    pool,
+    psqlPool,
   };
   
   

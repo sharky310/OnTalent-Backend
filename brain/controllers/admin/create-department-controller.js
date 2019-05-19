@@ -10,6 +10,8 @@ async function createDeparment(req, res, next) {
       let newDeparment = await deparment.create({
         id_dept,
         name_dept,
+      },{
+        fields:['id_dept','name_dept']
       });
   
       res.status(201).send("The deparment is created succesfully");

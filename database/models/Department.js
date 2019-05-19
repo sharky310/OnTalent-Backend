@@ -2,16 +2,17 @@ const Sequelize = require('sequelize');
 
 const {psqlPool} = require('../psql-pool');
 
-const department = psqlPool.define('department',{
-    id_department:{
+const department = psqlPool.define('Departments',{
+    id_dept:{
         type: Sequelize.NUMBER,
         primaryKey: true
     },
-    name_department:{
+    name_dept:{
         type: Sequelize.TEXT,
     }
 },{
-    timestamps: false
+    timestamps: false,
+    freezeTableName: true,
 });
 
 

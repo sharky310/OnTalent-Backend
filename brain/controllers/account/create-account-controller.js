@@ -26,7 +26,7 @@ async function createAccount(req, res, next) {
         id_dpt,
       });
   
-      res.status(201).send("The user are created succesfully");
+      res.status(201).send("The user is created succesfully");
     } catch (e){
       res.status(400).send("An error has ocurred: "+e);
     }

@@ -1,4 +1,10 @@
 "# OnTalent-Backend" 
+#### Convention rules
+
+##### Database
+
+**Table names** Plural name and first letter capital. Ex: Users
+**Column names** Singular names and first letter lowercase. Ex: identify
 
 #### Dependencies
 

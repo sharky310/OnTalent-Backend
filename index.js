@@ -12,8 +12,6 @@ const port = 3000;
 const nexus = '/api'
 const routers = require('./brain/routes');
 
-const psql = require('./database/psql-pool');
-
 //
 //Middleware
 app.use(bodyParser.json());
@@ -26,6 +24,7 @@ app.use((err, req, res, next) => {
 });
 
 app.use(nexus, routers.accountRouter);
+app.use(nexus, routers.adminRouter);
 // app.use(nexus, routers.postRouter);
 // app.use(nexus, routers.userRouter);
 
@@ -45,12 +44,6 @@ app.use((req, res, next) => {
 
 //Init backend
 function init(){
-  try {
-    // psql.check();
-  } catch (e) {
-    console.error(e);
-    process.exit(1);
-  }
 
     app.listen(port, () => {
         console.log(`The backend server is running in ${port}. Have a nice day`);

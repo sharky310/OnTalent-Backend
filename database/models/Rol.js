@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 
 const {psqlPool} = require('../psql-pool');
 
-const rol = psqlPool.define('rol',{
+const rol = psqlPool.define('Rols',{
     id_rol:{
         type: Sequelize.NUMBER,
         primaryKey: true
@@ -11,7 +11,8 @@ const rol = psqlPool.define('rol',{
         type: Sequelize.TEXT,
     }
 },{
-    timestamps: false
+    timestamps: false,
+    freezeTableName: true,
 });
 
 module.exports = rol;

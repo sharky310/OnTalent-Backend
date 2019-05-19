@@ -1,10 +1,10 @@
 const Sequelize = require('sequelize');
 
-const {psqlPool} = require('../database/psql-pool');
+const {psqlPool} = require('../psql-pool');
 
-const task = require('./Rol');
+//const rol = require('./Rol');
 
-const user = psqlPool.define('users',{
+const user = psqlPool.define('user',{
     uuid:{
         type: Sequelize.TEXT,
         primaryKey: true
@@ -34,7 +34,9 @@ const user = psqlPool.define('users',{
     timestamps: false
 });
 
-department.hasMany(user, {foreingKey: 'id_rol', sourceKey: 'id'});
-user.belongsTo(department, {foreingKey: 'id_rol', sourceKey: 'id'});
+//TODO included relations
+
+// rol.hasMany(user, {foreingKey: 'id_rol', sourceKey: 'id'});
+// user.belongsTo(rol, {foreingKey: 'id_rol', sourceKey: 'id'});
 
 module.exports = user;

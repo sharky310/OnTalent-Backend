@@ -1,6 +1,6 @@
 'use strict'
 
-const sequelize = require('../../../database/psql-pool');
+const user = require('../../../database/models/User');
 
 //TODO FUNCTION VALIDATE(is necesary that this function is async)
 
@@ -10,28 +10,26 @@ const sequelize = require('../../../database/psql-pool');
 
 async function createAccount(req, res, next) {
 
-    const accountData = {...req.body}; // accountData is in JSON format
+    const {uuid, first_name, last_name, email, id, id_rol, id_dpt} = {...req.body}; // accountData is in JSON format
+
+    const sp = null;
+
+    try{
+      let newUser = await user.create({
+        uuid, //this value must be calculated with the uuid module
+        first_name,
+        last_name,
+        email,
+        id,
+        sp,
+        id_rol,
+        id_dpt,
+      });
   
-    try {
-      psql.pool.query('SELECT * FROM rol', (err, res) => {
-        console.log(res);
-        pool.end();
-    })
-      console.log(psql);
-    } catch (e) {
-      return res.status(400).send(e);
+      res.status(201).send("The user are created succesfully");
+    } catch (e){
+      res.status(400).send("An error has ocurred: "+e);
     }
-
-    const now = new Date();
-    // const securePassword = await bcrypt.hash(accountData.password, 10);
-    // const uuid = uuidV4();
-    const createdAt = now.toISOString().substring(0, 19).replace('T', ' ');
-
-    const connection = await psqlPool.getConnection();
-
-    
-  
 }
   
-
 module.exports = createAccount;

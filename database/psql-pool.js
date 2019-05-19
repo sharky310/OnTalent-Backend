@@ -1,6 +1,6 @@
 'use strict'
 
-const sequelize = require('sequelize') ;
+const Sequelize = require('sequelize') ;
 
 
 const config = {
@@ -30,7 +30,7 @@ const psqlPool = new Sequelize(
   }
 )
 
-}
+
 
   module.exports = {
     psqlPool,

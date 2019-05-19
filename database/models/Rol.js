@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const {psqlPool} = require('../database/psql-pool');
+const {psqlPool} = require('../psql-pool');
 
 const rol = psqlPool.define('rol',{
     id_rol:{

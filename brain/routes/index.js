@@ -1,7 +1,5 @@
 'use strict'
 
-//TODO Enter each modules the necesary routes
-
 const accountRouter = require('./account-router');
 const documentRouter = require('./document-router');
 const eventRouter = require('./event-router');

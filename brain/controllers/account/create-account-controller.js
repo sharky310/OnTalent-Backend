@@ -8,6 +8,25 @@ const user = require('../../../database/models/User');
 
 //OPTIONAL. CAN YOU INCLUDE verification email, verification code
 
+async function sendEmailRegistration(userEmail, verificationCode) {
+  const linkActivacion = `http://localhost:3000/api/account/activate?verification_code=${verificationCode}`;
+  const msg = {
+    to: userEmail,
+    from: {
+      email: 'OnTalentInfo@yopmail.com',
+      name: 'OnTalent activate account',
+    },
+    subject: 'Welcome to OnTalent systems for business',
+    text: 'From today you belong out team',
+    html: `To confirm the account <a href="${linkActivacion}">activate it here</a>`,
+  };
+
+  // const data = await sendgridMail.send(msg);
+
+  // return data;
+}
+
+
 async function createAccount(req, res, next) {
 
     const {uuid, first_name, last_name, email, id, id_rol, id_dpt} = {...req.body}; // accountData is in JSON format

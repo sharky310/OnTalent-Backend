@@ -14,7 +14,7 @@ router.post('/admin/rol', createRolController);
 router.get('/admin/rol', getRolController);
 
 
-router.post('/admin/deparment', createDepartmentController);
-router.get('/admin/deparment', getDepartmentController);
+router.post('/admin/department', createDepartmentController);
+router.get('/admin/department', getDepartmentController);
 
 module.exports = router;

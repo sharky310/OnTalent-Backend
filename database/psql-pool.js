@@ -2,24 +2,13 @@
 
 const Sequelize = require('sequelize') ;
 
-
-const config = {
-      user: process.env.POSTGRESQL_USER,
-      host: process.env.POSTGRESQL_HOST,
-      database: process.env.POSTGRESQL_DATABASE,
-      password: process.env.POSTGRESQL_PASSWORD,
-      port: process.env.POSTGRESQL_PORT,
-      dialect: process.env.DIALECT,
-}
-
 const psqlPool = new Sequelize(
-  config.database,
-  config.user,
-  config.password,
+  process.env.POSTGRESQL_DATABASE,
+  process.env.POSTGRESQL_USER,
+  process.env.POSTGRESQL_PASSWORD,
   {
-    host: config.host,
-    dialect: config.dialect,
-    //TODO reduce config const and use external info in the pool object
+    host: process.env.POSTGRESQL_HOST,
+    dialect: process.env.DIALECT,
     pool:{
       max: 5,
       min: 0,

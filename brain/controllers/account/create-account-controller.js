@@ -1,31 +1,13 @@
 'use strict'
 
 const user = require('../../../database/models/User');
+const sendConfirmationMail = require('../../../mail/send-confirmation-mail');
 
 //TODO FUNCTION VALIDATE(is necesary that this function is async)
 
 //TODO FUNCTION CREATE-PROFILE(is necesary that this function is async)
 
-//OPTIONAL. CAN YOU INCLUDE verification email, verification code
-
-async function sendEmailRegistration(userEmail, verificationCode) {
-  const linkActivacion = `http://localhost:3000/api/account/activate?verification_code=${verificationCode}`;
-  const msg = {
-    to: userEmail,
-    from: {
-      email: 'OnTalentInfo@yopmail.com',
-      name: 'OnTalent activate account',
-    },
-    subject: 'Welcome to OnTalent systems for business',
-    text: 'From today you belong out team',
-    html: `To confirm the account <a href="${linkActivacion}">activate it here</a>`,
-  };
-
-  // const data = await sendgridMail.send(msg);
-
-  // return data;
-}
-
+//OPTIONAL. CAN YOU INCLUDE  verification code
 
 async function createAccount(req, res, next) {
 
@@ -44,7 +26,7 @@ async function createAccount(req, res, next) {
         id_rol,
         id_dpt,
       });
-  
+      //await sendConfirmationMail(email);
       res.status(201).send("The user is created succesfully");
     } catch (e){
       res.status(400).send("An error has ocurred: "+e);

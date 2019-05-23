@@ -20,8 +20,8 @@ async function sendConfirmationMail(user){
                 ],
                 "Subject": "Activate your account",
                 "TextPart": "Welcome to the company. We need activate your account and start to work and enjoying ",
-                //TODO customize the mail template
-                "HTMLPart": "<h3>Dear passenger 1, welcome to Mailjet!</h3><br />May the delivery force be with you!"
+                //TODO APP_HOST return undefined
+                "HTMLPart": `<h3>Welcome to your company!</h3><br /><p>We need you to confirm your account at the following link</p><br /><a>'${process.env.APP_HOST}/api/account/activate?verification_code=${user.verification_code}'</a>`
                 }
         ]
     })

@@ -2,6 +2,7 @@
 
 const user = require('../../../database/models/User');
 const sendConfirmationMail = require('../../../mail/send-confirmation-mail');
+const uuidV4 = require('uuid/v4');
 
 //TODO FUNCTION VALIDATE(is necesary that this function is async)
 
@@ -11,26 +12,25 @@ const sendConfirmationMail = require('../../../mail/send-confirmation-mail');
 
 async function createAccount(req, res, next) {
 
-    const {uuid, first_name, last_name, email, id, id_rol, id_dpt} = {...req.body}; // accountData is in JSON format
-
-    const sp = null; //TODO remove this const;
+    const {uuid, first_name, last_name, email, id_rol, id_dpt} = {...req.body}; // accountData is in JSON format
 
     try{
+
       let newUser = await user.create({
-        uuid, //this value must be calculated with the uuid module
+        uuid: uuidV4(),
         first_name,
         last_name,
         email,
-        id,
-        sp,
         id_rol,
         id_dpt,
-        account_created: new Date()
+        account_activated: null,
+        account_created: new Date(),
+        verification_code: uuidV4()
       });
 
       await sendConfirmationMail(newUser);
       res.status(201).send("The user is created succesfully");
-      
+
     } catch (e){
       res.status(400).send("An error has ocurred: "+e);
     }

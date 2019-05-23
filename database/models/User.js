@@ -19,9 +19,11 @@ const user = psqlPool.define('Users',{
         type: Sequelize.TEXT,
     },
     id:{
-        type: Sequelize.TEXT,
+        type: Sequelize.NUMBER,
+        autoIncrement: true,
+        primaryKey: true,
     },
-    account_activate:{
+    account_activated:{
         type: Sequelize.DATE,
     },
     id_rol:{
@@ -31,7 +33,10 @@ const user = psqlPool.define('Users',{
         type: Sequelize.NUMBER,
     },
     account_created:{
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+    },
+    verification_code:{
+        type: Sequelize.TEXT,
     }
 },{
     timestamps: false,

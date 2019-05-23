@@ -4,7 +4,8 @@ const {psqlPool} = require('../psql-pool');
 
 const event = psqlPool.define('Events',{
     id_event:{
-        type: Sequelize.TEXT,
+        type: Sequelize.NUMBER,
+        autoIncrement: true,
         primaryKey: true    
     },
     name:{

@@ -26,6 +26,7 @@ app.use((err, req, res, next) => {
 app.use(nexus, routers.accountRouter);
 app.use(nexus, routers.adminRouter);
 app.use(nexus, routers.userRouter);
+app.use(nexus, routers.eventRouter);
 // app.use(nexus, routers.postRouter);
 
 

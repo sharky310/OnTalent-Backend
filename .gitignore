@@ -6,5 +6,6 @@ internal_docs
 
 #Files
 .env
+.env.dev
 env.test
 .esdoc  .*

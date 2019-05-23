@@ -16,7 +16,7 @@ const event = psqlPool.define('Events',{
 
     },
     date:{
-        type: Sequelize.DATE,
+        type: Sequelize.DATEONLY,
 
     },
 },{

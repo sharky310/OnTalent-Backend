@@ -29,6 +29,9 @@ const user = psqlPool.define('Users',{
     },
     id_dpt:{
         type: Sequelize.NUMBER,
+    },
+    account_created:{
+        type: Sequelize.DATE
     }
 },{
     timestamps: false,

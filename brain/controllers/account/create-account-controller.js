@@ -13,7 +13,7 @@ async function createAccount(req, res, next) {
 
     const {uuid, first_name, last_name, email, id, id_rol, id_dpt} = {...req.body}; // accountData is in JSON format
 
-    const sp = null;
+    const sp = null; //TODO remove this const;
 
     try{
       let newUser = await user.create({
@@ -25,9 +25,12 @@ async function createAccount(req, res, next) {
         sp,
         id_rol,
         id_dpt,
+        account_created: new Date()
       });
+
       await sendConfirmationMail(newUser);
       res.status(201).send("The user is created succesfully");
+      
     } catch (e){
       res.status(400).send("An error has ocurred: "+e);
     }

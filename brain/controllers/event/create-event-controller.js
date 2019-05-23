@@ -6,15 +6,15 @@ const sendConfirmationMail = require('../../../mail/send-confirmation-mail');
 async function createEvent(req, res, next) {
     const {name, type} = {...req.body}; // eventData is in JSON format
 
-    const data = '2001-10-05'
+    const stringData = new Date();
 
     try{
       let newEvent = await event.create({
         name,
         type,
-        data
+        date: new Date() //TODO change value insert for value obtanin
       });
-      //await sendEventMail(newEvent);
+
       res.status(201).send("The event is created succesfully");
     } catch (e){
       res.status(400).send("An error has ocurred: "+e);

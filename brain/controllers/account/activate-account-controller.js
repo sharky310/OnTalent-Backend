@@ -5,7 +5,6 @@ const user = require('../../../database/models/User');
 async function activateAccount(req, res, next){
 
     try{
-        console.log("entra a actualizar");
         let query = await user.update(
         {
             account_activated: new Date(),
@@ -14,13 +13,12 @@ async function activateAccount(req, res, next){
             where: {verification_code: req.headers.verification_code},
           }
           ).then(result =>
-            console.log(result)
+            console.log(`User activated account with verification code ${req.headers.verification_code}`)
           )
           .catch(err =>
             console.log(err)
           )
-          console.log("Sale de ello");
-        res.status(200).send("Account activated");
+        res.status(202).send("Account activated");
     }catch(e){
         res.status(404);
     }

@@ -2,8 +2,6 @@ const Sequelize = require('sequelize');
 
 const {psqlPool} = require('../psql-pool');
 
-//const rol = require('./Rol');
-
 const user = psqlPool.define('Users',{
     uuid:{
         type: Sequelize.TEXT,

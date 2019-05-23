@@ -1,23 +1,26 @@
 'use strict'
 
 const user = require('../../../database/models/User');
-
+/**
+ * Return all info about a user, searching by email
+ * @param {*} req 
+ * @param {*} res 
+ * @param {*} next 
+ */
 async function getUserProfile(req, res, next){
-
-    const userId = req.params.userId;
 
     try{
         
     const userData = await user.findOne({
         where:{
-            uuid: userId,
+            email: req.headers.email,
         }
     });
-    console.log(userData);
-    res.json(userData);
+
+    res.status(200).json(userData);
 
 } catch(e){
-    res.status(403).send(e);
+    res.status(404).send(e);
 }
 
 }

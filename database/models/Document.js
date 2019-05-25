@@ -1,24 +1,29 @@
 const Sequelize = require('sequelize');
 
-const {psqlPool} = require('../psql-pool');
+const {
+    psqlPool
+} = require('../psql-pool');
 
-const document = psqlPool.define('Documents',{
-    id_document:{
+const document = psqlPool.define('Documents', {
+    id_document: {
         type: Sequelize.NUMBER,
-        primaryKey: true    
+        primaryKey: true
     },
-    name:{
+    name: {
         type: Sequelize.TEXT,
     },
-    type:{
-        type: Sequelize.TEXT,
-
-    },
-    id_user:{
+    type: {
         type: Sequelize.TEXT,
 
     },
-},{
+    id_user: {
+        type: Sequelize.TEXT,
+
+    },
+    document_route: {
+        type: Sequelize.TEXT,
+    }
+}, {
     timestamps: false,
     freezeTableName: true,
 });
@@ -27,4 +32,3 @@ const document = psqlPool.define('Documents',{
 
 
 module.exports = document;
-

@@ -8,6 +8,6 @@ const router = express.Router();
 
 const uploadDocumentController = require('../controllers/document/upload-document-controller');
 
-router.post('/document', uploadDocumentController);
+router.post('/document', upload.single('file'), uploadDocumentController);
 
 module.exports = router;

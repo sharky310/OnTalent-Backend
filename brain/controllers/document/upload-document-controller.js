@@ -2,24 +2,35 @@
 
 const document = require('../../../database/models/Document');
 
-var cloudinary = require('cloudinary');
-
 
 async function uploadDocument(req, res, next) {
 
-    cloudinary.config({ 
-        cloud_name: process.env.CLOUDINARI_CLOUD_NAME, 
-        api_key: process.env.CLOUDINARI_API_KEY, 
-        api_secret: process.env.CLOUDINARI_API_SECRET
-      });
+    const {file} = req;
 
-    try{
-        await cloudinary.uploader.upload("../../../internal_docs/documents/onboarding-linkedin.pdf", {public_id: 'single_page_pdf'}, function(result) { })
-        res.status(201);
-    } catch(e){
-        res.status(400).send(e);
-    }
+    if (!file || !file.buffer) {
+        console.log(file+" error de fichero")
+        return res.status(400).send();
+      }
+
+
+
+        const newDocument = await document.create({
+              id_document: 1, //TODO: I need autoincrement
+              name: file.originalname,
+              type: "pdf", //TODO: I need that this it's get from request
+              id_user: 20, //
+              document: file.buffer
+            }).then(() => {
+              console.log(`File uploaded successfully! -> filename = ${file.originalname}`);
+              res.json({msg:'File uploaded successfully! -> filename = ' + file.originalname});
+            }).catch(err => {
+              console.log(err);
+              res.json({msg: 'Error', detail: err});
+            });
+          
+
 
 }
+
 
 module.exports = uploadDocument;

@@ -20,8 +20,8 @@ const document = psqlPool.define('Documents', {
         type: Sequelize.TEXT,
 
     },
-    document_route: {
-        type: Sequelize.TEXT,
+    document: {
+        type: Sequelize.BLOB('long'),
     }
 }, {
     timestamps: false,

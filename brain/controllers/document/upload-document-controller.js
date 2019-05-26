@@ -12,8 +12,6 @@ async function uploadDocument(req, res, next) {
         return res.status(400).send();
       }
 
-
-
         const newDocument = await document.create({
               id_document: 1, //TODO: I need autoincrement
               name: file.originalname,

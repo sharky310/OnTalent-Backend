@@ -10,10 +10,10 @@ async function activateAccount(req, res, next){
             account_activated: new Date(),
         },
         {  
-            where: {verification_code: req.headers.verification_code},
+            where: {verification_code: req.query.verification_code},
           }
           ).then(result =>
-            console.log(`User activated account with verification code ${req.headers.verification_code}`)
+            console.log(`User activated account with verification code ${req.query.verification_code}`)
           )
           .catch(err =>
             console.log(err)

@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 const {psqlPool} = require('../psql-pool');
 
 const taskList = psqlPool.define('TaskLists',{
-    id_user:{
+    user_dni:{
         type: Sequelize.TEXT,
         primaryKey: true    
     },

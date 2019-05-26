@@ -16,12 +16,11 @@ const document = psqlPool.define('Documents', {
         type: Sequelize.TEXT,
 
     },
-    id_user: {
-        type: Sequelize.TEXT,
-
-    },
     document: {
         type: Sequelize.BLOB('long'),
+    },
+    id_user: {
+        type: Sequelize.TEXT,
     }
 }, {
     timestamps: false,

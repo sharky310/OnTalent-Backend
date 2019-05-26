@@ -28,7 +28,7 @@ app.use(nexus, routers.adminRouter);
 app.use(nexus, routers.userRouter);
 app.use(nexus, routers.eventRouter);
 app.use(nexus, routers.documentRouter);
-// app.use(nexus, routers.postRouter);
+app.use(nexus, routers.taskRouter);
 
 
 //Special middleware for config cors

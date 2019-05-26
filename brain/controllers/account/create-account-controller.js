@@ -3,21 +3,20 @@
 const user = require('../../../database/models/User');
 const sendConfirmationMail = require('../../../mail/send-confirmation-mail');
 const uuidV4 = require('uuid/v4');
+const check = require('./check-controllers');
+const initTask = require('../task/create-task-controller');
 
-//TODO FUNCTION VALIDATE(is necesary that this function is async)
-
-//TODO FUNCTION CREATE-PROFILE(is necesary that this function is async)
-
-//OPTIONAL. CAN YOU INCLUDE  verification code
+//TODO FUNCTION VALIDATE
 
 async function createAccount(req, res, next) {
 
-    const {uuid, first_name, last_name, email, id_rol, id_dpt} = {...req.body}; // accountData is in JSON format
+    const {dni, first_name, last_name, email, id_rol, id_dpt} = {...req.body}; // accountData is in JSON format
+
+    if (!(check("email",email) && check("dni",dni))) res.status(412).send("Repeated user");
 
     try{
-
       let newUser = await user.create({
-        uuid: uuidV4(),
+        dni,
         first_name,
         last_name,
         email,
@@ -29,11 +28,15 @@ async function createAccount(req, res, next) {
       });
 
       await sendConfirmationMail(newUser);
+      initTask(dni);
+
       res.status(201).send("The user is created succesfully");
 
     } catch (e){
+      //TODO included function for validate error
       res.status(400).send("An error has ocurred: "+e);
     }
-}
+  }
+
   
 module.exports = createAccount;

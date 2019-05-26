@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 const {psqlPool} = require('../psql-pool');
 
 const user = psqlPool.define('Users',{
-    uuid:{
+    dni:{
         type: Sequelize.TEXT,
         primaryKey: true
     },
@@ -15,11 +15,6 @@ const user = psqlPool.define('Users',{
     },
     email:{
         type: Sequelize.TEXT,
-    },
-    id:{
-        type: Sequelize.NUMBER,
-        autoIncrement: true,
-        primaryKey: true,
     },
     account_activated:{
         type: Sequelize.DATE,

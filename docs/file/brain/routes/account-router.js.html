@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home | ontalent-backend</title>
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">brain/routes/account-router.js | ontalent-backend</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -33,21 +33,21 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p>&quot;# OnTalent-Backend&quot; </p>
-<h4 id="convention-rules">Convention rules</h4><h5 id="database">Database</h5><p><strong>Table names</strong> Plural name and first letter capital. Ex: Users
-<strong>Column names</strong> Singular names and first letter lowercase. Ex: identify</p>
-<h4 id="dependencies">Dependencies</h4><p><strong>EXPRESS</strong> For web infraestructure</p>
-<h5 id="tools">Tools</h5><p><strong>JOI</strong> Validator for javascript objects
-<strong>BODY PARSER</strong> For parse request body</p>
-<h5 id="data">Data</h5><p><strong>UUID</strong> Generator of uuids</p>
-<h5 id="security">Security</h5><p><strong>DOTENV</strong> For loads enviaroment variables
-<strong>BCRYPT</strong> For hashing keys
-<strong>JSON WEB TOKEN</strong> For generate and work with tokens</p>
-<h4 id="mailing----you-can-choose-both-the-two-clients-and-install-">Mailing - (You can choose both the two clients and install)</h4><p><strong>SENDGRID</strong> For create mails of register and others
-<strong>MAILCHIMP</strong> For create mails of register and others </p>
-<h5 id="tools">Tools</h5><p><strong>JSDOC</strong> For keep record the code</p>
-<h5 id="database">Database</h5><p><strong>PG</strong> Driver for comunication with Postgresql</p>
-</div>
+<div class="content" data-ice="content"><h1 data-ice="title">brain/routes/account-router.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&apos;use strict&apos;
+
+const express = require(&apos;express&apos;);
+
+const createAccountController = require(&apos;../controllers/account/create-account-controller&apos;);
+const activateAccountController = require(&apos;../controllers/account/activate-account-controller&apos;);
+
+const router = express.Router();
+
+router.post(&apos;/account&apos;, createAccountController);
+router.get(&apos;/account/activate&apos;, activateAccountController);
+
+module.exports = router;</code></pre>
+
 </div>
 
 <footer class="footer">

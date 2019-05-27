@@ -1,6 +1,145 @@
 {
-  "coverage": "0%",
-  "expectCount": 0,
-  "actualCount": 0,
-  "files": {}
+  "coverage": "2.04%",
+  "expectCount": 49,
+  "actualCount": 1,
+  "files": {
+    "brain/controllers/account/activate-account-controller.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
+      ]
+    },
+    "brain/controllers/account/check-controllers.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
+      ]
+    },
+    "brain/controllers/admin/get-department-controller.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
+      ]
+    },
+    "brain/controllers/admin/get-rol-controller.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5
+      ]
+    },
+    "brain/controllers/document/get-documents-controller.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        7
+      ]
+    },
+    "brain/controllers/document/upload-document-controller.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        6
+      ]
+    },
+    "brain/controllers/task/create-task-controller.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        9
+      ]
+    },
+    "brain/controllers/user/get-profile-controller.js": {
+      "expectCount": 2,
+      "actualCount": 1,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "brain/routes/account-router.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        6,
+        8
+      ]
+    },
+    "brain/routes/admin-router.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ]
+    },
+    "brain/routes/document-router.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ]
+    },
+    "brain/routes/event-router.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        7
+      ]
+    },
+    "brain/routes/index.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "brain/routes/task-router.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        7
+      ]
+    },
+    "brain/routes/user-router.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        5,
+        7
+      ]
+    }
+  }
 }

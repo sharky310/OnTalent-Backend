@@ -1,5 +1,5 @@
 {
-    "source": "./src",
+    "source": "./brain",
     "destination": "./docs",
     "plugins": [
       {"name": "esdoc-standard-plugin"}

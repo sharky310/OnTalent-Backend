@@ -1,13 +1,15 @@
 'use strict'
 
 const user = require('../../../database/models/User');
+
 /**
- * Return all info about a user, searching by email
- * @param {*} req 
- * @param {*} res 
- * @param {*} next 
+ * 
+ * @param {*} req - Request value 
+ * @param {*} res  - Response of server
+ * @param {*} next - Function next to jump next middleware
  */
 async function getUserProfile(req, res, next){
+
 
     try{
         

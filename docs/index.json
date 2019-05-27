@@ -4,9 +4,9 @@
     "kind": "external",
     "name": "Infinity",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Infinity",
+    "longname": "brain/.external-ecmascript.js~Infinity",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -16,9 +16,9 @@
     "kind": "external",
     "name": "NaN",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~NaN",
+    "longname": "brain/.external-ecmascript.js~NaN",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -28,9 +28,9 @@
     "kind": "external",
     "name": "undefined",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~undefined",
+    "longname": "brain/.external-ecmascript.js~undefined",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -40,9 +40,9 @@
     "kind": "external",
     "name": "null",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~null",
+    "longname": "brain/.external-ecmascript.js~null",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -52,9 +52,9 @@
     "kind": "external",
     "name": "Object",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Object",
+    "longname": "brain/.external-ecmascript.js~Object",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -64,9 +64,9 @@
     "kind": "external",
     "name": "object",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~object",
+    "longname": "brain/.external-ecmascript.js~object",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -76,9 +76,9 @@
     "kind": "external",
     "name": "Function",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Function",
+    "longname": "brain/.external-ecmascript.js~Function",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -88,9 +88,9 @@
     "kind": "external",
     "name": "function",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~function",
+    "longname": "brain/.external-ecmascript.js~function",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -100,9 +100,9 @@
     "kind": "external",
     "name": "Boolean",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Boolean",
+    "longname": "brain/.external-ecmascript.js~Boolean",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -112,9 +112,9 @@
     "kind": "external",
     "name": "boolean",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~boolean",
+    "longname": "brain/.external-ecmascript.js~boolean",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -124,9 +124,9 @@
     "kind": "external",
     "name": "Symbol",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Symbol",
+    "longname": "brain/.external-ecmascript.js~Symbol",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -136,9 +136,9 @@
     "kind": "external",
     "name": "Error",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Error",
+    "longname": "brain/.external-ecmascript.js~Error",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -148,9 +148,9 @@
     "kind": "external",
     "name": "EvalError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~EvalError",
+    "longname": "brain/.external-ecmascript.js~EvalError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -160,9 +160,9 @@
     "kind": "external",
     "name": "InternalError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~InternalError",
+    "longname": "brain/.external-ecmascript.js~InternalError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -172,9 +172,9 @@
     "kind": "external",
     "name": "RangeError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~RangeError",
+    "longname": "brain/.external-ecmascript.js~RangeError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -184,9 +184,9 @@
     "kind": "external",
     "name": "ReferenceError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "longname": "brain/.external-ecmascript.js~ReferenceError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -196,9 +196,9 @@
     "kind": "external",
     "name": "SyntaxError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "longname": "brain/.external-ecmascript.js~SyntaxError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -208,9 +208,9 @@
     "kind": "external",
     "name": "TypeError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~TypeError",
+    "longname": "brain/.external-ecmascript.js~TypeError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -220,9 +220,9 @@
     "kind": "external",
     "name": "URIError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~URIError",
+    "longname": "brain/.external-ecmascript.js~URIError",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -232,9 +232,9 @@
     "kind": "external",
     "name": "Number",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Number",
+    "longname": "brain/.external-ecmascript.js~Number",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -244,9 +244,9 @@
     "kind": "external",
     "name": "number",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~number",
+    "longname": "brain/.external-ecmascript.js~number",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -256,9 +256,9 @@
     "kind": "external",
     "name": "Date",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Date",
+    "longname": "brain/.external-ecmascript.js~Date",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -268,9 +268,9 @@
     "kind": "external",
     "name": "String",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~String",
+    "longname": "brain/.external-ecmascript.js~String",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -280,9 +280,9 @@
     "kind": "external",
     "name": "string",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~string",
+    "longname": "brain/.external-ecmascript.js~string",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -292,9 +292,9 @@
     "kind": "external",
     "name": "RegExp",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~RegExp",
+    "longname": "brain/.external-ecmascript.js~RegExp",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -304,9 +304,9 @@
     "kind": "external",
     "name": "Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Array",
+    "longname": "brain/.external-ecmascript.js~Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -316,9 +316,9 @@
     "kind": "external",
     "name": "Int8Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Int8Array",
+    "longname": "brain/.external-ecmascript.js~Int8Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -328,9 +328,9 @@
     "kind": "external",
     "name": "Uint8Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "longname": "brain/.external-ecmascript.js~Uint8Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -340,9 +340,9 @@
     "kind": "external",
     "name": "Uint8ClampedArray",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "longname": "brain/.external-ecmascript.js~Uint8ClampedArray",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -352,9 +352,9 @@
     "kind": "external",
     "name": "Int16Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Int16Array",
+    "longname": "brain/.external-ecmascript.js~Int16Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -364,9 +364,9 @@
     "kind": "external",
     "name": "Uint16Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "longname": "brain/.external-ecmascript.js~Uint16Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -376,9 +376,9 @@
     "kind": "external",
     "name": "Int32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Int32Array",
+    "longname": "brain/.external-ecmascript.js~Int32Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -388,9 +388,9 @@
     "kind": "external",
     "name": "Uint32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "longname": "brain/.external-ecmascript.js~Uint32Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -400,9 +400,9 @@
     "kind": "external",
     "name": "Float32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Float32Array",
+    "longname": "brain/.external-ecmascript.js~Float32Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -412,9 +412,9 @@
     "kind": "external",
     "name": "Float64Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Float64Array",
+    "longname": "brain/.external-ecmascript.js~Float64Array",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -424,9 +424,9 @@
     "kind": "external",
     "name": "Map",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Map",
+    "longname": "brain/.external-ecmascript.js~Map",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -436,9 +436,9 @@
     "kind": "external",
     "name": "Set",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Set",
+    "longname": "brain/.external-ecmascript.js~Set",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -448,9 +448,9 @@
     "kind": "external",
     "name": "WeakMap",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~WeakMap",
+    "longname": "brain/.external-ecmascript.js~WeakMap",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -460,9 +460,9 @@
     "kind": "external",
     "name": "WeakSet",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~WeakSet",
+    "longname": "brain/.external-ecmascript.js~WeakSet",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -472,9 +472,9 @@
     "kind": "external",
     "name": "ArrayBuffer",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "longname": "brain/.external-ecmascript.js~ArrayBuffer",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -484,9 +484,9 @@
     "kind": "external",
     "name": "DataView",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~DataView",
+    "longname": "brain/.external-ecmascript.js~DataView",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -496,9 +496,9 @@
     "kind": "external",
     "name": "JSON",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~JSON",
+    "longname": "brain/.external-ecmascript.js~JSON",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -508,9 +508,9 @@
     "kind": "external",
     "name": "Promise",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Promise",
+    "longname": "brain/.external-ecmascript.js~Promise",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -520,9 +520,9 @@
     "kind": "external",
     "name": "Generator",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Generator",
+    "longname": "brain/.external-ecmascript.js~Generator",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -532,9 +532,9 @@
     "kind": "external",
     "name": "GeneratorFunction",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "longname": "brain/.external-ecmascript.js~GeneratorFunction",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -544,9 +544,9 @@
     "kind": "external",
     "name": "Reflect",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Reflect",
+    "longname": "brain/.external-ecmascript.js~Reflect",
     "access": "public",
     "description": "",
     "builtinExternal": true
@@ -556,25 +556,1404 @@
     "kind": "external",
     "name": "Proxy",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
-    "memberof": "src/.external-ecmascript.js",
+    "memberof": "brain/.external-ecmascript.js",
     "static": true,
-    "longname": "src/.external-ecmascript.js~Proxy",
+    "longname": "brain/.external-ecmascript.js~Proxy",
     "access": "public",
     "description": "",
     "builtinExternal": true
   },
   {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "brain/controllers/account/activate-account-controller.js",
+    "content": "'use strict';\n\nconst user = require('../../../database/models/User');\n\nasync function activateAccount(req, res, next){\n\n    try{\n        let query = await user.update(\n        {\n            account_activated: new Date(),\n        },\n        {  \n            where: {verification_code: req.query.verification_code},\n          }\n          ).then(result =>\n            console.log(`User activated account with verification code ${req.query.verification_code}`)\n          )\n          .catch(err =>\n            console.log(err)\n          )\n        res.status(202).send(\"Account activated\");\n    }catch(e){\n        res.status(404);\n    }\n    res.status(404);\n\n}\n\nmodule.exports = activateAccount;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/account/activate-account-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "user",
+    "memberof": "brain/controllers/account/activate-account-controller.js",
+    "static": true,
+    "longname": "brain/controllers/account/activate-account-controller.js~user",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/account/activate-account-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "activateAccount",
+    "memberof": "brain/controllers/account/activate-account-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/account/activate-account-controller.js~activateAccount",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/account/activate-account-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "res",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "file",
+    "name": "brain/controllers/account/check-controllers.js",
+    "content": "'use strict'\n\nconst user = require('../../../database/models/User');\n\nasync function check(field, value){\n\ntry{\n\n    const query = await user.findAll({\n        where: {\n          field: value\n        }\n      });\n    \n      if (query!=null) return true;\n        else return false;\n    }catch(e){\n        return false;\n    }\n}\n\nmodule.exports = check;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/account/check-controllers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "user",
+    "memberof": "brain/controllers/account/check-controllers.js",
+    "static": true,
+    "longname": "brain/controllers/account/check-controllers.js~user",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/account/check-controllers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "check",
+    "memberof": "brain/controllers/account/check-controllers.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/account/check-controllers.js~check",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/account/check-controllers.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "field",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "value",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "brain/controllers/admin/get-department-controller.js",
+    "content": "'use strict'\n\nconst deparment = require('../../../database/models/Department');\n\nasync function getDeparment(req, res, next) {\n\n    try{\n    const departments = await deparment.findAll();\n    res.json({\n        data: departments\n    });\n} catch(e){\n    res.status(400).send(e);\n}\n\n}\n\nmodule.exports = getDeparment;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/admin/get-department-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "deparment",
+    "memberof": "brain/controllers/admin/get-department-controller.js",
+    "static": true,
+    "longname": "brain/controllers/admin/get-department-controller.js~deparment",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/admin/get-department-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "getDeparment",
+    "memberof": "brain/controllers/admin/get-department-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/admin/get-department-controller.js~getDeparment",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/admin/get-department-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "res",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "brain/controllers/admin/get-rol-controller.js",
+    "content": "'use strict'\n\nconst rol = require('../../../database/models/Rol');\n\nasync function getRol(req, res, next) {\n\n    try{\n\n    const rols = await rol.findAll();\n    res.json({\n        data: rols\n    });\n    \n} catch(e){\n    res.status(400).send(e);\n}\n}   \n\nmodule.exports = getRol;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/admin/get-rol-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "rol",
+    "memberof": "brain/controllers/admin/get-rol-controller.js",
+    "static": true,
+    "longname": "brain/controllers/admin/get-rol-controller.js~rol",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/admin/get-rol-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "getRol",
+    "memberof": "brain/controllers/admin/get-rol-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/admin/get-rol-controller.js~getRol",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/admin/get-rol-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "res",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "brain/controllers/document/get-documents-controller.js",
+    "content": "'use strict';\n\nconst document = require('../../../database/models/Document');\n\nconst stream = require('stream');\n\nasync function getDocument(req, res, next){\n\n    document.findOne({ where: {name: req.query.id} }).then(file=> {\n        const fileContents = Buffer.from(file.dataValues.document, \"base64\");\n        const readStream = new stream.PassThrough();\n        readStream.end(fileContents);\n    \n         res.set('Content-disposition', 'attachment; filename=' + file.name);\n         res.set('Content-Type', file.type);\n \n         readStream.pipe(res);\n  }).catch(err => {\n    console.log(err);\n    res.json({msg: 'Error', detail: err});\n      })\n}\n\nmodule.exports = getDocument;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/document/get-documents-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "document",
+    "memberof": "brain/controllers/document/get-documents-controller.js",
+    "static": true,
+    "longname": "brain/controllers/document/get-documents-controller.js~document",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/document/get-documents-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "stream",
+    "memberof": "brain/controllers/document/get-documents-controller.js",
+    "static": true,
+    "longname": "brain/controllers/document/get-documents-controller.js~stream",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/document/get-documents-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "getDocument",
+    "memberof": "brain/controllers/document/get-documents-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/document/get-documents-controller.js~getDocument",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/document/get-documents-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "res",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "brain/controllers/document/upload-document-controller.js",
+    "content": "'use strict';\n\nconst document = require('../../../database/models/Document');\n\n\nasync function uploadDocument(req, res, next) {\n\n    const {file} = req;\n\n    if (!file || !file.buffer) {\n        console.log(file+\" error de fichero\")\n        return res.status(400).send();\n      }\n\n        const newDocument = await document.create({\n              id_document: 1, //TODO: I need autoincrement\n              name: file.originalname,\n              type: \"pdf\", //TODO: I need that this it's get from request\n              id_user: 20, //\n              document: file.buffer\n            }).then(() => {\n              console.log(`File uploaded successfully! -> filename = ${file.originalname}`);\n              res.json({msg:'File uploaded successfully! -> filename = ' + file.originalname});\n            }).catch(err => {\n              console.log(err);\n              res.json({msg: 'Error', detail: err});\n            });\n          \n\n\n}\n\n\nmodule.exports = uploadDocument;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/document/upload-document-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "document",
+    "memberof": "brain/controllers/document/upload-document-controller.js",
+    "static": true,
+    "longname": "brain/controllers/document/upload-document-controller.js~document",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/document/upload-document-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "uploadDocument",
+    "memberof": "brain/controllers/document/upload-document-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/document/upload-document-controller.js~uploadDocument",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/document/upload-document-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "res",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "brain/controllers/login-controller.js",
+    "content": "'use strict'",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/login-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "brain/controllers/session/check-token.js",
+    "content": "'use strict'",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/session/check-token.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "brain/controllers/task/create-task-controller.js",
+    "content": "'use strict'\n\nconst task = require('../../../database/models/TaskList');\n\nasync function createTask(req, res, next){\n\n}\n\nasync function createInitTask(dni){\n    console.log(\"Chega\")\n    try{\n        const homework = await task.create({\n          user_dni: dni,\n          task: \"Read welcome guide\",\n          limit_date: new Date()\n        });\n    } catch (e){\n        console.log(e);\n    }\n}\n\nmodule.exports = createInitTask;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/task/create-task-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "task",
+    "memberof": "brain/controllers/task/create-task-controller.js",
+    "static": true,
+    "longname": "brain/controllers/task/create-task-controller.js~task",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/task/create-task-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "createTask",
+    "memberof": "brain/controllers/task/create-task-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/task/create-task-controller.js~createTask",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/task/create-task-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "res",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "createInitTask",
+    "memberof": "brain/controllers/task/create-task-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/task/create-task-controller.js~createInitTask",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/task/create-task-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dni",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "brain/controllers/user/get-profile-controller.js",
+    "content": "'use strict'\n\nconst user = require('../../../database/models/User');\n\n/**\n * \n * @param {*} req - Request value \n * @param {*} res  - Response of server\n * @param {*} next - Function next to jump next middleware\n */\nasync function getUserProfile(req, res, next){\n\n\n    try{\n        \n    const userData = await user.findOne({\n        where:{\n            email: req.headers.email,\n        }\n    });\n\n    res.status(200).json(userData);\n\n} catch(e){\n    res.status(404).send(e);\n}\n\n}\n\nmodule.exports = getUserProfile;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/controllers/user/get-profile-controller.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "variable",
+    "name": "user",
+    "memberof": "brain/controllers/user/get-profile-controller.js",
+    "static": true,
+    "longname": "brain/controllers/user/get-profile-controller.js~user",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/user/get-profile-controller.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "getUserProfile",
+    "memberof": "brain/controllers/user/get-profile-controller.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "brain/controllers/user/get-profile-controller.js~getUserProfile",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/controllers/user/get-profile-controller.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Request value"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Response of server"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "next",
+        "description": "Function next to jump next middleware"
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "brain/routes/account-router.js",
+    "content": "'use strict'\n\nconst express = require('express');\n\nconst createAccountController = require('../controllers/account/create-account-controller');\nconst activateAccountController = require('../controllers/account/activate-account-controller');\n\nconst router = express.Router();\n\nrouter.post('/account', createAccountController);\nrouter.get('/account/activate', activateAccountController);\n\nmodule.exports = router;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/routes/account-router.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "brain/routes/account-router.js",
+    "static": true,
+    "longname": "brain/routes/account-router.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/account-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "variable",
+    "name": "createAccountController",
+    "memberof": "brain/routes/account-router.js",
+    "static": true,
+    "longname": "brain/routes/account-router.js~createAccountController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/account-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "variable",
+    "name": "activateAccountController",
+    "memberof": "brain/routes/account-router.js",
+    "static": true,
+    "longname": "brain/routes/account-router.js~activateAccountController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/account-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "brain/routes/account-router.js",
+    "static": true,
+    "longname": "brain/routes/account-router.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/account-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "brain/routes/admin-router.js",
+    "content": "'use strict'\n\nconst express = require('express');\n\nconst createRolController = require('../controllers/admin/create-rol-controller');\nconst getRolController = require('../controllers/admin/get-rol-controller');\n\nconst createDepartmentController = require('../controllers/admin/create-department-controller');\nconst getDepartmentController = require('../controllers/admin/get-department-controller');\n\nconst router = express.Router();\n\nrouter.post('/admin/rol', createRolController);\nrouter.get('/admin/rol', getRolController);\n\n\nrouter.post('/admin/department', createDepartmentController);\nrouter.get('/admin/department', getDepartmentController);\n\nmodule.exports = router;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/routes/admin-router.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "brain/routes/admin-router.js",
+    "static": true,
+    "longname": "brain/routes/admin-router.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/admin-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "createRolController",
+    "memberof": "brain/routes/admin-router.js",
+    "static": true,
+    "longname": "brain/routes/admin-router.js~createRolController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/admin-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "variable",
+    "name": "getRolController",
+    "memberof": "brain/routes/admin-router.js",
+    "static": true,
+    "longname": "brain/routes/admin-router.js~getRolController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/admin-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "variable",
+    "name": "createDepartmentController",
+    "memberof": "brain/routes/admin-router.js",
+    "static": true,
+    "longname": "brain/routes/admin-router.js~createDepartmentController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/admin-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "name": "getDepartmentController",
+    "memberof": "brain/routes/admin-router.js",
+    "static": true,
+    "longname": "brain/routes/admin-router.js~getDepartmentController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/admin-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "brain/routes/admin-router.js",
+    "static": true,
+    "longname": "brain/routes/admin-router.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/admin-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "brain/routes/document-router.js",
+    "content": "'use strict'\n\nconst express = require('express');\nconst multer = require('multer');\n\nconst upload = multer();\nconst router = express.Router();\n\nconst uploadDocumentController = require('../controllers/document/upload-document-controller');\nconst getDocumentController = require('../controllers/document/get-documents-controller');\n\nrouter.post('/document', upload.single('file'), uploadDocumentController);\nrouter.get('/document', getDocumentController);\n\nmodule.exports = router;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/routes/document-router.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "brain/routes/document-router.js",
+    "static": true,
+    "longname": "brain/routes/document-router.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/document-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "name": "multer",
+    "memberof": "brain/routes/document-router.js",
+    "static": true,
+    "longname": "brain/routes/document-router.js~multer",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/document-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "variable",
+    "name": "upload",
+    "memberof": "brain/routes/document-router.js",
+    "static": true,
+    "longname": "brain/routes/document-router.js~upload",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/document-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "brain/routes/document-router.js",
+    "static": true,
+    "longname": "brain/routes/document-router.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/document-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "name": "uploadDocumentController",
+    "memberof": "brain/routes/document-router.js",
+    "static": true,
+    "longname": "brain/routes/document-router.js~uploadDocumentController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/document-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "name": "getDocumentController",
+    "memberof": "brain/routes/document-router.js",
+    "static": true,
+    "longname": "brain/routes/document-router.js~getDocumentController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/document-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 95,
+    "kind": "file",
+    "name": "brain/routes/event-router.js",
+    "content": "'use strict'\n\nconst express = require('express');\n\nconst createEventController = require('../controllers/event/create-event-controller');\n\nconst router = express.Router();\n\nrouter.post('/event', createEventController);\n\nmodule.exports = router;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/routes/event-router.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 96,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "brain/routes/event-router.js",
+    "static": true,
+    "longname": "brain/routes/event-router.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/event-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "name": "createEventController",
+    "memberof": "brain/routes/event-router.js",
+    "static": true,
+    "longname": "brain/routes/event-router.js~createEventController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/event-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "brain/routes/event-router.js",
+    "static": true,
+    "longname": "brain/routes/event-router.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/event-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "brain/routes/index.js",
+    "content": "'use strict'\n\nconst accountRouter = require('./account-router');\nconst documentRouter = require('./document-router');\nconst eventRouter = require('./event-router');\nconst userRouter = require('./user-router');\nconst adminRouter = require('./admin-router');\nconst taskRouter = require('./task-router');\n\nmodule.exports = {\n    accountRouter,\n    documentRouter,\n    eventRouter,\n    userRouter,\n    adminRouter,\n    taskRouter\n}",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/routes/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "variable",
+    "name": "accountRouter",
+    "memberof": "brain/routes/index.js",
+    "static": true,
+    "longname": "brain/routes/index.js~accountRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "variable",
+    "name": "documentRouter",
+    "memberof": "brain/routes/index.js",
+    "static": true,
+    "longname": "brain/routes/index.js~documentRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "name": "eventRouter",
+    "memberof": "brain/routes/index.js",
+    "static": true,
+    "longname": "brain/routes/index.js~eventRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "name": "userRouter",
+    "memberof": "brain/routes/index.js",
+    "static": true,
+    "longname": "brain/routes/index.js~userRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "variable",
+    "name": "adminRouter",
+    "memberof": "brain/routes/index.js",
+    "static": true,
+    "longname": "brain/routes/index.js~adminRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 105,
+    "kind": "variable",
+    "name": "taskRouter",
+    "memberof": "brain/routes/index.js",
+    "static": true,
+    "longname": "brain/routes/index.js~taskRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 106,
+    "kind": "file",
+    "name": "brain/routes/task-router.js",
+    "content": "'use strict'\n\nconst express = require('express');\n\nconst createTaskController = require('../controllers/task/create-task-controller');\n\nconst router = express.Router();\n\nrouter.post('/task', createTaskController);\n\nmodule.exports = router;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/routes/task-router.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 107,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "brain/routes/task-router.js",
+    "static": true,
+    "longname": "brain/routes/task-router.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/task-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "variable",
+    "name": "createTaskController",
+    "memberof": "brain/routes/task-router.js",
+    "static": true,
+    "longname": "brain/routes/task-router.js~createTaskController",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/task-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "brain/routes/task-router.js",
+    "static": true,
+    "longname": "brain/routes/task-router.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/task-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 110,
+    "kind": "file",
+    "name": "brain/routes/user-router.js",
+    "content": "'use strict'\n\nconst express = require('express');\n\nconst getUserProfile = require('../controllers/user/get-profile-controller');\n\nconst router = express.Router();\n\nrouter.get('/profile/', getUserProfile); //TODO FIX this route\n\nmodule.exports = router;",
+    "static": true,
+    "longname": "/home/bos34/Desktop/ontalent/Backend/brain/routes/user-router.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 111,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "brain/routes/user-router.js",
+    "static": true,
+    "longname": "brain/routes/user-router.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/user-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "name": "getUserProfile",
+    "memberof": "brain/routes/user-router.js",
+    "static": true,
+    "longname": "brain/routes/user-router.js~getUserProfile",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/user-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "brain/routes/user-router.js",
+    "static": true,
+    "longname": "brain/routes/user-router.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "ontalent-backend/brain/routes/user-router.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
     "kind": "index",
-    "content": "\"# OnTalent-Backend\" \r\n\r\n#### Dependencies\r\n\r\n\r\n**EXPRESS** For web infraestructure\r\n\r\n##### Tools\r\n**JOI** Validator for javascript objects\r\n**BODY PARSER** For parse request body\r\n\r\n##### Data\r\n**UUID** Generator of uuids\r\n\r\n##### Security\r\n**DOTENV** For loads enviaroment variables\r\n**BCRYPT** For hashing keys\r\n**JSON WEB TOKEN** For generate and work with tokens\r\n\r\n#### Mailing - (You can choose both the two clients and install)\r\n**SENDGRID** For create mails of register and others\r\n**MAILCHIMP** For create mails of register and others \r\n\r\n\r\n##### Tools\r\n**JSDOC** For keep record the code\r\n\r\n##### Database\r\n**PG** Driver for comunication with Postgresql\r\n",
-    "longname": "C:\\Users\\Usuario\\Desktop\\WorkSpace\\MikiCastroProyects\\OnTalent\\Backend\\README.md",
+    "content": "\"# OnTalent-Backend\" \n#### Convention rules\n\n##### Database\n\n**Table names** Plural name and first letter capital. Ex: Users\n**Column names** Singular names and first letter lowercase. Ex: identify\n\n#### Dependencies\n\n\n**EXPRESS** For web infraestructure\n\n##### Tools\n**JOI** Validator for javascript objects\n**BODY PARSER** For parse request body\n\n##### Data\n**UUID** Generator of uuids\n\n##### Security\n**DOTENV** For loads enviaroment variables\n**BCRYPT** For hashing keys\n**JSON WEB TOKEN** For generate and work with tokens\n\n#### Mailing - (You can choose both the two clients and install)\n**SENDGRID** For create mails of register and others\n**MAILCHIMP** For create mails of register and others \n\n\n##### Tools\n**JSDOC** For keep record the code\n\n##### Database\n**PG** Driver for comunication with Postgresql\n",
+    "longname": "/home/bos34/Desktop/ontalent/Backend/README.md",
     "name": "./README.md",
     "static": true,
     "access": "public"
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"ontalent-backend\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Backend proyect for On Talent App Software\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"dev\": \"nodemon index.js\",\n    \"doc\": \"./node_modules/.bin/esdoc -c esdoc.json\",\n    \"start\": \"node index.js\",\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/sharky310/OnTalent-Backend.git\"\n  },\n  \"keywords\": [\n    \"onboarding\",\n    \"ontalent\",\n    \"backend\",\n    \"express\",\n    \"node\",\n    \"js\"\n  ],\n  \"author\": \"Miguel Angel Castro Edreira\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/sharky310/OnTalent-Backend/issues\"\n  },\n  \"homepage\": \"https://github.com/sharky310/OnTalent-Backend#readme\",\n  \"dependencies\": {\n    \"@hapi/joi\": \"^15.0.3\",\n    \"bcrypt\": \"^3.0.6\",\n    \"body-parser\": \"^1.19.0\",\n    \"dotenv\": \"^8.0.0\",\n    \"express\": \"^4.16.4\",\n    \"jsonwebtoken\": \"^8.5.1\",\n    \"pg\": \"^7.11.0\",\n    \"pg-hstore\": \"^2.3.2\",\n    \"sequelize\": \"^5.8.6\",\n    \"uuid\": \"^3.3.2\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"nodemon\": \"^1.19.0\"\n  }\n}\n",
-    "longname": "C:\\Users\\Usuario\\Desktop\\WorkSpace\\MikiCastroProyects\\OnTalent\\Backend\\package.json",
+    "content": "{\n  \"name\": \"ontalent-backend\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Backend proyect for On Talent App Software\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"dev\": \"nodemon index.js\",\n    \"doc\": \"./node_modules/.bin/esdoc -c esdoc.json\",\n    \"start\": \"node index.js\",\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/sharky310/OnTalent-Backend.git\"\n  },\n  \"keywords\": [\n    \"onboarding\",\n    \"ontalent\",\n    \"backend\",\n    \"express\",\n    \"node\",\n    \"js\"\n  ],\n  \"author\": \"Miguel Angel Castro Edreira\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/sharky310/OnTalent-Backend/issues\"\n  },\n  \"homepage\": \"https://github.com/sharky310/OnTalent-Backend#readme\",\n  \"dependencies\": {\n    \"@hapi/joi\": \"^15.0.3\",\n    \"bcrypt\": \"^3.0.6\",\n    \"body-parser\": \"^1.19.0\",\n    \"dotenv\": \"^8.0.0\",\n    \"express\": \"^4.16.4\",\n    \"jsonwebtoken\": \"^8.5.1\",\n    \"multer\": \"^1.4.1\",\n    \"node-mailjet\": \"^3.3.1\",\n    \"pg\": \"^7.11.0\",\n    \"pg-hstore\": \"^2.3.2\",\n    \"sequelize\": \"^5.8.6\",\n    \"uuid\": \"^3.3.2\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"nodemon\": \"^1.19.0\"\n  }\n}\n",
+    "longname": "/home/bos34/Desktop/ontalent/Backend/package.json",
     "name": "package.json",
     "static": true,
     "access": "public"

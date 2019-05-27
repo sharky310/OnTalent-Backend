@@ -1,11 +1,12 @@
 'use strict'
 
 
-//Imports libraries and frameworks
+/**
+ * Imports libraries and frameworks
+ */
 require('dotenv').config();
 const bodyParser = require('body-parser');
 const express = require('express');
-
 
 const app = express();
 const port = 3000;
@@ -44,7 +45,7 @@ app.use((req, res, next) => {
 });
 
 
-//Init backend
+//Init server
 function init() {
 
   app.listen(port, () => {

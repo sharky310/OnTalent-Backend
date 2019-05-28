@@ -9,7 +9,6 @@ const bodyParser = require('body-parser');
 const express = require('express');
 
 const app = express();
-const port = 3000;
 const nexus = '/api'
 const routers = require('./brain/routes');
 
@@ -48,8 +47,8 @@ app.use((req, res, next) => {
 //Init server
 function init() {
 
-  app.listen(port, () => {
-    console.log(`The backend server is running in ${port}. Have a nice day`);
+  app.listen(process.env.EXPRESS_PORT, () => {
+    console.log(`The backend server is running in 3000. Have a nice day`);
   });
 }
 

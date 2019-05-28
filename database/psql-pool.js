@@ -9,6 +9,9 @@ const psqlPool = new Sequelize(
   {
     host: process.env.POSTGRESQL_HOST,
     dialect: process.env.DIALECT,
+    dialectOptions: {
+      ssl: true
+    },
     pool:{
       max: 5,
       min: 0,

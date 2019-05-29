@@ -47,7 +47,7 @@ app.use((req, res, next) => {
 //Init server
 function init() {
 
-  app.listen(PORT, () => {
+  app.listen(process.env.PORT, () => {
     console.log(`The backend server is running in 3000. Have a nice day`);
   });
 }

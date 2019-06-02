@@ -14,7 +14,9 @@ async function createAccount(req, res, next) {
     const {dni, first_name, last_name, email, id_rol, id_dpt, password} = {...req.body}; // accountData is in JSON format
     const securePassword = await bcrypt.hash(password, 10);
 
-    if ((checkValues("email",email) && checkValues("dni",dni))) res.status(412).send("Repeated user");
+    if (!(checkValues("email",email) && checkValues("dni",dni))) 
+      res.status(412).send("Repeated user");
+    else{
 
 
     try{
@@ -40,6 +42,7 @@ async function createAccount(req, res, next) {
       //TODO included function for validate error
       res.status(400).send("An error has ocurred: "+e);
     }
+  }
   }
 
   

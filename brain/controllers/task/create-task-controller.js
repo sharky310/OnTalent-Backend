@@ -7,7 +7,6 @@ async function createTask(req, res, next){
 }
 
 async function createInitTask(dni){
-    console.log("Chega")
     try{
         const homework = await task.create({
           user_dni: dni,

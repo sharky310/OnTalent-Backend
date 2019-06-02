@@ -7,6 +7,7 @@
 require('dotenv').config();
 const bodyParser = require('body-parser');
 const express = require('express');
+const PORT = (process.env.PORT || 3000);
 
 const app = express();
 const nexus = '/api'
@@ -48,7 +49,7 @@ app.use((req, res, next) => {
 function init() {
 
   app.listen(process.env.PORT, () => {
-    console.log(`The backend server is running in 3000. Have a nice day`);
+    console.log(`The backend server is running in ${process.env.PORT}. Have a nice day`);
   });
 }
 

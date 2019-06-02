@@ -3,7 +3,7 @@ const mailjet = require('node-mailjet').connect(process.env.MAILJET_API_KEY,proc
 
 async function sendConfirmationMail(user){
 
-        const verification_route = (process.env.APP_HOST)+"/api/account/activate?verification_code="+user.verification_code;
+        const verification_route = "http://localhost:3000/api/account/activate?verification_code="+user.verification_code;
 
     const request = mailjet
     .post("send", {'version': 'v3.1'})

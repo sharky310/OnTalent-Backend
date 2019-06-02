@@ -30,6 +30,9 @@ const user = psqlPool.define('Users',{
     },
     verification_code:{
         type: Sequelize.TEXT,
+    },
+    password:{
+        type: Sequelize.TEXT,
     }
 },{
     timestamps: false,

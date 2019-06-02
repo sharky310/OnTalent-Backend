@@ -1,16 +1,17 @@
 'use strict'
 
-const user = require('../../../database/models/User');
+const user = require('../../database/models/User');
 
-async function check(field, value){
+async function checkValues(field, value){
 
 try{
-
     const query = await user.findAll({
         where: {
           field: value
         }
       });
+
+      console.log(query);
     
       if (query!=null) return true;
         else return false;
@@ -19,4 +20,4 @@ try{
     }
 }
 
-module.exports = check;
+module.exports = checkValues;

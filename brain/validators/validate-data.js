@@ -11,7 +11,10 @@ async function validateData(dataBox) {
       password: Joi.string().regex(/^[a-zA-Z0-9]{3,30}$/).required(),
     };
   
-    return Joi.validate(dataBox, schema);
+    const values = {"email" : dataBox.email, "password":dataBox.password};
+
+    return Joi.validate(values, schema);
+
   }
   
 module.exports = validateData;  

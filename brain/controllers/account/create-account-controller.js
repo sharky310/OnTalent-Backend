@@ -8,20 +8,18 @@ const bcrypt = require('bcrypt');
 const initTask = require('../task/create-task-controller');
 const validate = require('../../validators/validate-data');
 
-//TODO FUNCTION VALIDATE
-
 async function createAccount(req, res, next) {
 
-    const {dni, first_name, last_name, email, id_rol, id_dpt, password} = {...req.body}; // accountData is in JSON format
+    const {dni, first_name, last_name, email, id_rol, id_dpt, password} = {...req.body};
     const securePassword = await bcrypt.hash(password, 10);
     const accountData = { ...req.body };
 
-    // try {
-    //   await validate(accountData);
-    // } catch (e)
-    // {
-    //   return res.status(400).send("Syntax error");
-    // }
+    try {
+      await validate(accountData);
+    } catch (e)
+    {
+      return res.status(400).send("Syntax error");
+    }
 
     if (!(checkValues("email",email) && checkValues("dni",dni))) 
       return res.status(412).send("Repeated user");

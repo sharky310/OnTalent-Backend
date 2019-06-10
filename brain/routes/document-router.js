@@ -9,6 +9,7 @@ const router = express.Router();
 const uploadDocumentController = require('../controllers/document/upload-document-controller');
 const getDocumentController = require('../controllers/document/get-documents-controller');
 
+//TODO include check_token
 router.post('/document', upload.single('file'), uploadDocumentController);
 router.get('/document', getDocumentController);
 

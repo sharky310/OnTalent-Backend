@@ -6,6 +6,7 @@ const createEventController = require('../controllers/event/create-event-control
 
 const router = express.Router();
 
+//TODO include check_token
 router.post('/event', createEventController);
 
 module.exports = router;

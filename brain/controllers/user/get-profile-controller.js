@@ -6,6 +6,7 @@ const bcrypt = require('bcrypt');
 
 async function getUserProfile(req, res, next){
 
+    console.log("Entra en profile");
     try{
         const userData = await user.findOne({
             where:{

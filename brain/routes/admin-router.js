@@ -2,6 +2,7 @@
 
 const express = require('express');
 
+
 const createRolController = require('../controllers/admin/create-rol-controller');
 const getRolController = require('../controllers/admin/get-rol-controller');
 
@@ -10,6 +11,7 @@ const getDepartmentController = require('../controllers/admin/get-department-con
 
 const router = express.Router();
 
+//TODO include check_token
 router.post('/admin/rol', createRolController);
 router.get('/admin/rol', getRolController);
 

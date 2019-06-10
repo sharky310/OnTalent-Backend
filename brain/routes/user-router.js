@@ -1,7 +1,6 @@
 'use strict'
 
 const express = require('express');
-
 const getUserProfile = require('../controllers/user/get-profile-controller');
 
 const router = express.Router();

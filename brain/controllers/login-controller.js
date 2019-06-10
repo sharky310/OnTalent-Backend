@@ -4,6 +4,7 @@
 const bcrypt = require('bcrypt');
 const Joi = require('joi');
 const jwt = require('jsonwebtoken');
+const user = require('../../database/models/User');
 
 const AccountNotActivatedError = require('../controllers/error/account-not-activated-error');   
 
@@ -23,6 +24,7 @@ async function validateData(payload) {
     /**
      * Validar datos de entrada con Joi
      */
+
     const accountData = { ...req.body };
     try {
       await validateData(accountData);
@@ -34,6 +36,7 @@ async function validateData(payload) {
      * Check si existe el usuario en la bbdd
      */
     try {
+        console.log(accountData.email);
         const result = await user.findOne({
             where:{
                 email: accountData.email,
@@ -51,7 +54,7 @@ async function validateData(payload) {
     activated_at: 2019-03-01T19:00:57.000Z 
   }
     */
-        if (!userData.activated_at) {
+        if (result.activated_at!=null) {
           const accountNotActivated = new AccountNotActivatedError('you need to confirm the verification link');
   
           // throw accountNotActivated; // throw new AccountNotActivatedError()
@@ -62,7 +65,7 @@ async function validateData(payload) {
         /**
          * Paso3: La clave es valida?
          */
-        const laPasswordEstaOk = await bcrypt.compare(accountData.password, userData.password);
+        const laPasswordEstaOk = await bcrypt.compare(accountData.password,result.password);
         if (laPasswordEstaOk === false) { // !laPasswordEstaOk
           return res.status(401).send();
         }
@@ -72,7 +75,7 @@ async function validateData(payload) {
          * La duración del token es de 1 minuto (podria ir en variable de entorno)
          */
         const payloadJwt = {
-          uuid: userData.uuid,
+          uuid: result.uuid,
           role: 'admin', // userData.role si viene de bbdd
         };
     

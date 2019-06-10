@@ -74,6 +74,8 @@ async function validateData(payload) {
          * Paso 4: Generar token JWT con uuid + role (admin) asociado al token
          * La duración del token es de 1 minuto (podria ir en variable de entorno)
          */
+
+         //TODO remove role in payloadJWT
         const payloadJwt = {
           uuid: result.uuid,
           role: 'admin', // userData.role si viene de bbdd

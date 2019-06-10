@@ -11,12 +11,13 @@ function checkJwtToken(req, res, next) {
     return res.status(401).send();
   }
 
+  
   //   if (!authorization.startsWith('JWT '))
   const [prefix, token] = authorization.split(' '); // [JWT, xxxx]
   if (prefix !== 'JWT') {
     return res.status(401).send();
   }
-
+  
   if (!token) {
     return res.status(401).send();
   }

@@ -21,9 +21,6 @@ async function validateData(payload) {
 
 
   async function login(req, res, next) {
-    /**
-     * Validar datos de entrada con Joi
-     */
 
     const accountData = { ...req.body };
     try {
@@ -36,24 +33,12 @@ async function validateData(payload) {
      * Check si existe el usuario en la bbdd
      */
     try {
-        console.log(accountData.email);
         const result = await user.findOne({
             where:{
                 email: accountData.email,
             }   
         });
   
-        /*
-        result es esto:
-        {
-    id: 66,
-    uuid: 'fb66233b-23b4-46ad-bdf3-51e65dbb2f8e',
-    email: 'josetest@yopmail.com',
-    password:
-     '$2b$10$lW7xAAZSs2TnaX7Ua.7LGOa4bHpBQ53ig2TWRdS.EMB8XihVcckrO',
-    activated_at: 2019-03-01T19:00:57.000Z 
-  }
-    */
         if (result.activated_at!=null) {
           const accountNotActivated = new AccountNotActivatedError('you need to confirm the verification link');
   
@@ -62,23 +47,13 @@ async function validateData(payload) {
           return next(accountNotActivated);
         }
   
-        /**
-         * Paso3: La clave es valida?
-         */
         const laPasswordEstaOk = await bcrypt.compare(accountData.password,result.password);
-        if (laPasswordEstaOk === false) { // !laPasswordEstaOk
+        if (laPasswordEstaOk === false) { 
           return res.status(401).send();
         }
   
-        /**
-         * Paso 4: Generar token JWT con uuid + role (admin) asociado al token
-         * La duración del token es de 1 minuto (podria ir en variable de entorno)
-         */
-
-         //TODO remove role in payloadJWT
         const payloadJwt = {
           uuid: result.uuid,
-          role: 'admin', // userData.role si viene de bbdd
         };
     
         const jwtTokenExpiration = parseInt(process.env.AUTH_ACCESS_TOKEN_TTL, 10);
@@ -86,6 +61,7 @@ async function validateData(payload) {
         const response = {
           accessToken: token,
           expiresIn: jwtTokenExpiration,
+          role: result.id_rol
         };
     
         return res.status(200).json(response);

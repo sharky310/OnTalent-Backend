@@ -6,7 +6,6 @@ const uuidV4 = require('uuid/v4');
 const checkValues = require('../../validators/check-controllers');
 const bcrypt = require('bcrypt');
 const initTask = require('../task/create-task-controller');
-const validate = require('../../validators/validate-data');
 
 async function createAccount(req, res, next) {
 

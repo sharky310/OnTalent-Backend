@@ -37,6 +37,7 @@ async function createAccount(req, res, next) {
               verification_code: uuidV4(),
               password: securePassword
             });
+            console.log(user);
             await sendConfirmationMail(newUser);
             initTask(dni);
             return res.status(201).send("The user is created succesfully");

@@ -7,7 +7,8 @@ const {
 const document = psqlPool.define('Documents', {
     id_document: {
         type: Sequelize.NUMBER,
-        primaryKey: true
+        autoIncrement: true, 
+        primaryKey: true,
     },
     name: {
         type: Sequelize.TEXT,

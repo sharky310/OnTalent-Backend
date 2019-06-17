@@ -13,10 +13,9 @@ async function uploadDocument(req, res, next) {
       }
 
         const newDocument = await document.create({
-              id_document: 1, //TODO: I need autoincrement
               name: file.originalname,
               type: "pdf", //TODO: I need that this it's get from request
-              id_user: "46898286k", //TODO: We need change id_user for user to admin id
+              id_user: process.env.ID_ADMIN, //TODO: We need change id_user for user to admin id
               document: file.buffer
             }).then(() => {
               console.log(`File uploaded successfully! -> filename = ${file.originalname}`);

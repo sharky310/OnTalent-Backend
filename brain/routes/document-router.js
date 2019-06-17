@@ -13,7 +13,7 @@ const getDocumentController = require('../controllers/document/get-documents-con
 const checkToken = require('../controllers/session/check-token')
 
 //TODO include check_token
-router.post('/document', upload.single('file'), uploadDocumentController);
+router.post('/document', upload.single('file'), uploadDocumentController);  
 router.get('/document', checkToken, getDocumentController);
 
 module.exports = router;

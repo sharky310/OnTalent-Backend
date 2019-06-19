@@ -30,13 +30,14 @@ async function validateData(payload) {
     }
     
     try {
+
         const result = await user.findOne({
             where:{
                 email: accountData.email,
             }   
         });
-  
-        if (result.activated_at!=null) {
+
+        if (result.account_activated===null) {
 
           const accountNotActivated = new AccountNotActivatedError('you need to confirm the verification link');
   
@@ -49,14 +50,17 @@ async function validateData(payload) {
         }
   
         const payloadJwt = {
-          uuid: result.uuid,
+          uuid: result.dni,
+          role: result.id_rol===1 ? "admin" : "user",
         };
     
         const jwtTokenExpiration = parseInt(process.env.AUTH_ACCESS_TOKEN_TTL, 10);
         const token = jwt.sign(payloadJwt, process.env.AUTH_JWT_SECRET, { expiresIn: jwtTokenExpiration });
+
         const response = {
           accessToken: token,
           expiresIn: jwtTokenExpiration,
+          //TODO don't return role and use the value in payloadJWT
           role: result.id_rol
         };
     
@@ -64,7 +68,6 @@ async function validateData(payload) {
       }
   
        catch (e) {
-      console.log(e);
       return res.status(500).send(e.message);
     }
 }

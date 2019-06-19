@@ -8,6 +8,7 @@ async function getUserProfile(req, res, next){
 
     console.log("Entra en profile");
     try{
+        console.log(req.headers);
         const userData = await user.findOne({
             where:{
                 email: req.headers.email,

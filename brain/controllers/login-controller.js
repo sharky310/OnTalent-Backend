@@ -50,7 +50,7 @@ async function validateData(payload) {
         }
   
         const payloadJwt = {
-          uuid: result.dni,
+          email: result.email,
           role: result.id_rol===1 ? "admin" : "user",
         };
     

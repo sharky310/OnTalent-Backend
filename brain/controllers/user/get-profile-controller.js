@@ -1,20 +1,20 @@
 'use strict'
 
 const user = require('../../../database/models/User');
-const checkPassword = require('../../validators/check-password');
-const bcrypt = require('bcrypt');
+const checkPassword = require('../../validators/check-password');   
 
 async function getUserProfile(req, res, next){
 
-    console.log("Entra en profile");
+    console.log(req.claims);
+    const { email } = req.claims;
+
     try{
-        console.log(req.headers);
+
         const userData = await user.findOne({
             where:{
-                email: req.headers.email,
+                email: email,
             }   
         });
-
 
     if (checkPassword(userData.dataValues.password,req.headers.email)===false) return res.status(401).send("Invalid password");
          

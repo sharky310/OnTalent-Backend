@@ -20,6 +20,7 @@ async function getUserProfile(req, res, next){
         const userData = await user.findOne({
             where:{
                 email: email,
+                raw: true
             }   
         });
 

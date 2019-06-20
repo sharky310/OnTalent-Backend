@@ -9,7 +9,7 @@ const user = require('../../database/models/User');
 const AccountNotActivatedError = require('../controllers/error/account-not-activated-error');   
 
 
-//TODO remove that this function is develop in validators folder
+//TODO remove from here this function for that is repeat at validators folder
 async function validateData(payload) {
     const schema = {
       email: Joi.string().email({ minDomainAtoms: 2 }).required(),
@@ -19,9 +19,14 @@ async function validateData(payload) {
     return Joi.validate(payload, schema);
   }
 
-
+/**
+ * This function is the core of login-controller
+ */
   async function login(req, res, next) {
 
+    /**
+     * One - Validate the request data
+     */
     const accountData = { ...req.body };
     try {
       await validateData(accountData);
@@ -30,13 +35,18 @@ async function validateData(payload) {
     }
     
     try {
-
+        /**
+         * Two - Send query to database for search user
+         */
         const result = await user.findOne({
             where:{
                 email: accountData.email,
             }   
         });
 
+        /**
+         * If account not activated before send email return a error
+         */
         if (result.account_activated===null) {
 
           const accountNotActivated = new AccountNotActivatedError('you need to confirm the verification link');
@@ -44,11 +54,19 @@ async function validateData(payload) {
           return next(accountNotActivated);
         }
   
+
+        /**
+         * Three - Check that password send for the user is OK
+         */
         const laPasswordEstaOk = await bcrypt.compare(accountData.password,result.password);
         if (laPasswordEstaOk === false) { 
           return res.status(401).send();
         }
   
+
+        /**
+         * Four - Create token with JWT the payload use role attribute but it is not yet implemented
+         */
         const payloadJwt = {
           email: result.email,
           role: result.id_rol===1 ? "admin" : "user",

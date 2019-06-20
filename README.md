@@ -24,9 +24,7 @@
 **JSON WEB TOKEN** For generate and work with tokens
 
 #### Mailing - (You can choose both the two clients and install)
-**SENDGRID** For create mails of register and others
-**MAILCHIMP** For create mails of register and others 
-
+**MAILJET** For create mails of register and others
 
 ##### Tools
 **JSDOC** For keep record the code

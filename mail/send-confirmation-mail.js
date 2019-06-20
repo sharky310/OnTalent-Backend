@@ -1,6 +1,10 @@
+
 const mailjet = require('node-mailjet').connect(process.env.MAILJET_API_KEY,process.env.MAILJET_API_SECRET_KEY);
 
-
+/**
+ * The function in this module have a function of sendMail when the system create a user 
+ * @param {*} user - We need user data for extract the email to send
+ */
 async function sendConfirmationMail(user){
 
         const verification_route = "https://ontalent.herokuapp.com/api/account/activate?verification_code="+user.verification_code;
@@ -29,6 +33,4 @@ async function sendConfirmationMail(user){
 
 }
 
-async function sendEventMail(user){};
-
-module.exports = sendConfirmationMail, sendEventMail;
+module.exports = sendConfirmationMail;

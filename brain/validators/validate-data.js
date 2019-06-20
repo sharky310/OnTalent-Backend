@@ -3,7 +3,10 @@
 const Joi = require('joi');
 
 
-//TODO include dni
+/**
+ * Check that email and password are formats valid
+ * @param {*} dataBox - Include data for check
+ */
 async function validateData(dataBox) {
     
     const schema = {

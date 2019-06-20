@@ -13,9 +13,9 @@ const app = express();
 const nexus = '/api'
 const routers = require('./brain/routes');
 
-//
-//Middleware
-//Special middleware for config cors
+/**
+ * Special middleware for config cors
+ */
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
@@ -37,6 +37,10 @@ app.use((err, req, res, next) => {
   });
 });
 
+
+/**
+ * Routes
+ */
 app.use(nexus, routers.accountRouter);
 app.use(nexus, routers.adminRouter);
 app.use(nexus, routers.userRouter);

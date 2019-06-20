@@ -4,10 +4,12 @@ const jwt = require('jsonwebtoken');
 
 const { AUTH_JWT_SECRET: authJwtSecret } = process.env;
 
+
+/**
+ *  Check that the frontend send the token and that is valid
+ */
 function checkJwtToken(req, res, next) {
   
-  console.log("token");
-  // checkeará el token jwt que viene en el header como authorization
   const { authorization } = req.headers;
 
   if (!authorization) {
@@ -15,8 +17,10 @@ function checkJwtToken(req, res, next) {
   }
   
   
-  //   if (!authorization.startsWith('JWT '))
-  const [prefix, token] = authorization.split(' '); // [JWT, xxxx]
+  /**
+   * Check that token include prefix JWT
+   */
+  const [prefix, token] = authorization.split(' ');
   if (prefix !== 'JWT') {
     return res.status(401).send();
   }
@@ -27,6 +31,9 @@ function checkJwtToken(req, res, next) {
   
   try {
 
+    /**
+     * Decoded token and obtein values 
+     */
     const decoded = jwt.verify(token, authJwtSecret);
     
     req.claims = {

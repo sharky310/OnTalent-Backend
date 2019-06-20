@@ -15,6 +15,7 @@ async function createAccount(req, res, next) {
     const id_rol = 3;
     const id_dpt = 1;
     
+    //TODO remove this check
     if (!(checkValues("email",email) && checkValues("dni",dni))) 
     return res.status(412).send("Repeated user");
     else{

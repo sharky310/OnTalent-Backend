@@ -2,8 +2,14 @@
 
 const user = require('../../database/models/User');
 
-async function checkValues(field, value){
 
+/**
+ * Check that the value is different of null
+ * @deprecated
+ * @param {*} value - Value for check
+ */
+async function checkValues(field, value){
+//TODO remove field
 try{
     const query = await user.findAll({
         where: {

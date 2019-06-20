@@ -5,7 +5,6 @@ const checkPassword = require('../../validators/check-password');
 
 async function getUserProfile(req, res, next){
 
-    console.log(req.claims);
     const { email } = req.claims;
 
     try{

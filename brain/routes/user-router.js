@@ -6,6 +6,6 @@ const checkToken = require('../controllers/session/check-token')
 
 const router = express.Router();
 
-router.get('/profile/', checkToken, getUserProfile); //TODO FIX this route
+router.get('/profile', checkToken, getUserProfile); //TODO FIX this route
 
 module.exports = router;

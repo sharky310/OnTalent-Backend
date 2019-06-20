@@ -5,6 +5,8 @@ const jwt = require('jsonwebtoken');
 const { AUTH_JWT_SECRET: authJwtSecret } = process.env;
 
 function checkJwtToken(req, res, next) {
+  
+  console.log("token");
   // checkeará el token jwt que viene en el header como authorization
   const { authorization } = req.headers;
 

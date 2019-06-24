@@ -6,14 +6,6 @@ const checkPassword = require('../../validators/check-password');
 async function getListProfile(req, res, next){
 
     /**
-     * Extract mail user for req.claims. This request is send for checkToken function
-     */
-    const { email } = req.claims;
-
-
-    //TODO include validator mail
-
-    /**
      * Validate the request data 
      */
     try{

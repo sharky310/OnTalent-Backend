@@ -8,8 +8,8 @@ const getListProfile = require('../controllers/user/get-list-profile-controller'
 
 const router = express.Router();
 
-router.get('/profile', checkToken, getUserProfile);
-router.put('/profile/pass', checkToken, updateUserPass);
-router.get('/profiles',checkToken,getListProfile)
+router.get('/profile',getUserProfile);
+router.put('/profile/pass',updateUserPass);
+router.get('/profiles',getListProfile)
 
 module.exports = router;

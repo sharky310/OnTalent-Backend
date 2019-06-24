@@ -9,6 +9,6 @@ const checkToken = require('../controllers/session/check-token');
 const router = express.Router();
 
 //TODO include check_token
-router.post('/event', checkToken, createEventController);
+router.post('/event',createEventController);
 
 module.exports = router;

@@ -43,7 +43,6 @@ async function validateData(payload) {
                 email: accountData.email,
             }   
         });
-
         /**
          * If account not activated before send email return a error
          */

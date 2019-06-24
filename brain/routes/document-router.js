@@ -14,6 +14,6 @@ const checkToken = require('../controllers/session/check-token')
 
 //TODO include check_token
 router.post('/document', upload.single('file'), uploadDocumentController);  
-router.get('/document', checkToken, getDocumentController);
+router.get('/document', getDocumentController);
 
 module.exports = router;

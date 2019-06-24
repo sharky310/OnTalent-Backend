@@ -32,7 +32,7 @@ function checkJwtToken(req, res, next) {
   try {
 
     /**
-     * Decoded token and obtein values 
+     * Decoded token and obtein values  
      */
     const decoded = jwt.verify(token, authJwtSecret);
     

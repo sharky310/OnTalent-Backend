@@ -5,17 +5,17 @@ const document = require('../../../database/models/Document');
 const stream = require('stream');
 
 /**
- * TODO this controller we have chance to response only a document
+ * Return list of documents
  */
-async function getDocument(req, res, next){
+async function getListDocument(req, res, next){
 
   document.findAll({ attributes: ['name'] })
   .then(document => {
-    res.status(200).send(document)
+    res.status(200).json(document)
   })
   .catch(err => {
     res.status(400).send(e);
   })
 }
 
-module.exports = getDocument;
+module.exports = getListDocument;

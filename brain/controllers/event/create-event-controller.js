@@ -13,7 +13,7 @@ async function createEvent(req, res, next) {
         name,
         type,
         id_event,
-        date: new Date()+3 //TODO change value insert for value obtanin
+        date: new Date() //TODO change value insert for value obtanin
       });
 
       res.status(201).send("The event is created succesfully");

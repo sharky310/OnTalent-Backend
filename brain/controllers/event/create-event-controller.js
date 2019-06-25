@@ -7,7 +7,7 @@ async function createEvent(req, res, next) {
     const {name, type, id_event} = {...req.body}; // eventData is in JSON format
 
     const stringData = new Date();
-
+    console.log(req.body);
     try{
       let newEvent = await event.create({
         name,

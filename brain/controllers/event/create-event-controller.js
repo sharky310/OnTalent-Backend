@@ -4,7 +4,7 @@ const event = require('../../../database/models/Event');
 const sendConfirmationMail = require('../../../mail/send-confirmation-mail');
 
 async function createEvent(req, res, next) {
-    const {name, type} = {...req.body}; // eventData is in JSON format
+    const {name, type, id_event} = {...req.body}; // eventData is in JSON format
 
     const stringData = new Date();
 
@@ -12,7 +12,8 @@ async function createEvent(req, res, next) {
       let newEvent = await event.create({
         name,
         type,
-        date: new Date() //TODO change value insert for value obtanin
+        id_event,
+        date: new Date()+3 //TODO change value insert for value obtanin
       });
 
       res.status(201).send("The event is created succesfully");

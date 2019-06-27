@@ -1,33 +1,51 @@
-"# OnTalent-Backend" 
-#### Convention rules
+# OnTalent Backend
 
-##### Database
+Ontalent backend, incluye el api REST para trabajar contra la base de datos. Este proyecto complementa con Ontalend frontend
 
-**Table names** Plural name and first letter capital. Ex: Users
-**Column names** Singular names and first letter lowercase. Ex: identify
+## Arranque
 
-#### Dependencies
+Sigue los pasos que se muestran a continuación para obtener tu copia del proyecto y poder probar el sistema
+
+### Pre-requisitos 📋
+
+Primeramente debes obtener tu copia y tener el entorno de desarrollo adecuado (NODE JS):
+
+```
+$ git clone https://github.com/sharky310/OnTalent-Backend.git
+```
+
+### Instalación 🔧
+
+A continuación deberás instalar las dependencias necesarias
+
+```
+$ npm install
+```
+
+Y configurar la base de datos
+
+```
+/docs/internal_docs/database encontraras los scripts para importar en una instancia de PostgreSQL
+```
+
+## Terminamos el backend ⚙️
+
+A continuación deberas continuar con el repositorio de frontend
 
 
-**EXPRESS** For web infraestructure
 
-##### Tools
-**JOI** Validator for javascript objects
-**BODY PARSER** For parse request body
+## Librerías 🛠️
 
-##### Data
-**UUID** Generator of uuids
+El proyecto OnTalent Backend esta desarrollado con las siguientes librerías
 
-##### Security
-**DOTENV** For loads enviaroment variables
-**BCRYPT** For hashing keys
-**JSON WEB TOKEN** For generate and work with tokens
+* [EXPRESS](https://expressjs.com/es/) - Infraestructura web
+* [JWT](https://jwt.io/) - Libreria de tokens
+* [SEQUELIZE](https://rometools.github.io/rome/) - ORM para gestión de base de datos
 
-#### Mailing - (You can choose both the two clients and install)
-**MAILJET** For create mails of register and others
+## Contribuyendo 🖇️
 
-##### Tools
-**JSDOC** For keep record the code
+Si deseas participar en el proyecto no dudes en ponerte en contacto ontalentapp@gmail.com
 
-##### Database
-**PG** Driver for comunication with Postgresql
+## Autores ✒️
+
+* **Miguel Angel Castro Edreira** - *Full stack developer javascript*
